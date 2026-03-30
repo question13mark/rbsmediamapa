@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="preloader.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d6d2ca" />
+    <title>rbsmedia mapa</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <img class="loader" src="/images/rbslogo.svg" alt="Loader">
+          <p class="loading-progress">0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+      <img src="/images/rbslogo.svg" alt="Logo" width="100" height="100">
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Points of Interests -->
+      <div class="point mudac museum">
+        <img class="label" src="/images/logo-mudac.svg" alt="Logo Mudac">
+        <div class="text">Musée Cantonal de Design et d'Arts Appliqués Contemporains</div>
+      </div>
+      <div class="point elysee museum">
+        <img class="label" src="/images/logo-elysee.svg" alt="Logo Photo Elysée">
+        <div class="text">Photo Elysée</div>
+      </div>
+      <div class="point arcadia restaurant">
+        <img class="label icn" src="/images/icn-restaurant.svg" alt="Restaurant Icon">
+        <div class="text">Arcadia Restaurant</div>
+      </div>
+      <div class="point nabi restaurant">
+        <img class="label icn" src="/images/icn-restaurant.svg" alt="Restaurant Icon">
+        <div class="text">Le Nabi Café-Restaurant</div>
+      </div>
+      <div class="point lumen restaurant">
+        <img class="label icn" src="/images/icn-restaurant.svg" alt="Restaurant Icon">
+        <div class="text">Lumen Café </div>
+      </div>
+      <div class="point mcba museum">
+        <img class="label" src="/images/rbsfull.svg" alt="logorbs">
+        <div class="text">RBS MEDIA Sp. z o.o.</div>
+      </div>
+
+      <!-- Info Panels  -->
+      <div class="info-panel">
+        <div class="info-panel-header">
+          <img class="close" src="/images/icn-close.svg" alt="">
+        </div>
+        <div class="info-panel-content">
+          <div class="info-panel-content-wrapper">
+            <img class="info-panel-image" src="" alt="">
+            <img class="info-panel-logo" src="" alt="">
+            <h2 class="info-panel-title"></h2>
+            <p class="info-panel-lead"></p>
+            <p class="info-panel-description"></p>
+            <table>
+              <caption>Godziny otwarcia</caption>
+                <tr>
+                  <th scope="col">Dzień</th>
+                  <th scope="col">Czas</th>
+                </tr>
+                <tr>
+                  <td class="col-min">Poniedziałek</td>
+                  <td class="info-panel-monday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Wtorek</td>
+                  <td class="info-panel-tuesday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Środa</td>
+                  <td class="info-panel-wednesday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Czwartek</td>
+                  <td class="info-panel-thursday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Piątek</td>
+                  <td class="info-panel-friday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Sobota</td>
+                  <td class="info-panel-saturday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">Niedziela</td>
+                  <td class="info-panel-sunday"></td>
+                </tr>
+            </table>
+            <table>
+              <caption>Kontakt</caption>
+              <tbody>
+                <tr>
+                  <th class="col-min" scope="row">Telefon</th>
+                  <td class="info-panel-phone">+48 886 839 006</td>
+                </tr>
+                <tr>
+                  <th class="col-min"  scope="row">Email</th>
+                  <td class="info-panel-email">sekretariat@rbsmedia.pl</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a class="info-panel-website" href="" target="_blank">
+              <button>strona główna</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="controls">
+  <p class="controls-mouse">
+    Sterowanie myszą<br><br>
+    Lewy przycisk - Obrót<br>
+    Prawy przycisk - Przesuwanie<br>
+    Środkowy przycisk - Powiększanie
+  </p>
+  <p class="controls-touch">
+    Sterowanie<br><br>
+    Przeciągnięcie jednym palcem - Obrót<br>
+    Przeciągnięcie dwoma palcami - Przesuwanie<br>
+    Rozsuwanie - Powiększanie<br>
+        </p>
+      </div>
+      <div class="footer">
+        <div class="links">
+          <a href="rbsmedia.pl" target="rbsmedia.pl">Strona główna</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
